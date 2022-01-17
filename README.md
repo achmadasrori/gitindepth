@@ -16,3 +16,15 @@ tree .git
 Example Result:
 <br />
 <img src="https://user-images.githubusercontent.com/18713143/149710372-36648673-10d5-4ea6-8db0-86dd43e1c031.png">
+
+## Git Commits
+Commits are information about any changes to any state stored by git from the initial state to the last state. Commit objects are stored in the form of a tree. commit data contains the following information:
+1. Commit ID (SHA1)
+2. author and commiter
+3. date
+4. message
+5. parent commit (one or more)
+
+the information in the commit data cannot be edited. but we can rollback to a previous commit.
+
+<img src="https://user-images.githubusercontent.com/18713143/149713104-d087d84d-c8fd-4174-884c-c910d4d1c505.png">
