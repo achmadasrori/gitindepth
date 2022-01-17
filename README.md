@@ -96,3 +96,37 @@ Is tool for conflicted merges. this tool is a really, really helpful tool. In a 
 This command assists the developer in this process by recording conflicted automerge results and corresponding hand resolve results on the initial manual merge, and applying previously recorded hand resolutions to their corresponding automerge results.
 
 reference : [https://git-scm.com/docs/git-rerere].
+
+## History and Diffs
+### Useful Commit Messages
+Good commit messages are important. Good commit messages should help preserve codebase history.
+They help with:
+- Debugging & troubleshooting creating release notes
+- Code reviews
+- Rolling back
+- Associating the code with an issue or ticket
+
+Some tips for creating a commit message are:
+- Enter the ticket code
+- Commit message is in future tense. ex: ‘Fix’ vs ‘Fixed’
+- Short subject, followed by a blank line. What you want to do is add a descriptive body to your commit message after the newline. Git will truncate that message if it's better than 69 characters by default. If you try to look at the commit on GitHub, it will be dot, dot, dot, after 69 characters.
+- A description of the current behavior, a short summary of why the fix is needed. Mention side effects. The description is broken into 72 char lines.
+### Git Log
+Git log is a basic command that shows you the history of your repository
+
+![image](https://user-images.githubusercontent.com/18713143/149779304-ed8fdc85-9e8e-4fcf-bc88-6542e5a40d9a.png)
+
+See [https://git-scm.com/docs/git-log] or `git log --help` for more complex uses.
+### Git Show
+Git show is used to view the details of a commit. It will display information about the file and the contents that were changed on a commit.
+
+![image](https://user-images.githubusercontent.com/18713143/149782065-6b943099-2554-4521-9314-61384c51e17e.png)
+
+See [https://git-scm.com/docs/git-show] or `git show --help` for more complex uses.
+### Git Diff
+Git diff show changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees, changes resulting from a merge, changes between two blob objects, or changes between two files on disk.
+
+![image](https://user-images.githubusercontent.com/18713143/149784428-a4e47bc5-bc11-48f3-961b-18c84f048364.png)
+
+See [https://git-scm.com/docs/git-diff] or `git show --help` for more complex uses.
+
