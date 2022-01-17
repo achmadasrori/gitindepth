@@ -60,3 +60,34 @@ __Tags__
 Git supports us to be able to checkout to a specific commit or tag instead of a branch.
 ### Dangling Commit
 A commit that is unrelated to all existing references in our git project. git will put it as garbage collected. here we can find the reference and recover it.
+
+## Merge and Rebasing
+merge commit is just a marker of when a new feature was merged into master
+### Fast Forwarding
+Every once in while, you checkout in some branch you merge in your another branch and if there haven't been any additional changes to base branch by default git will merge with fast forwarded. 
+
+Fast Forward happens when there are no commits on the base branch that occured after the feature branch was created. There's a clear path from the tip of the current branch to the tip of the branch.
+
+jika anda tidak menginginkan metode default ini. seperti pada kasus anda ingin tetap merekam history merge, anda dapat melakukannya dengan menambah opsi `--no-ff` (No Fast Forward)
+
+Use
+
+```sh
+git merge --no-ff
+```
+
+Before merge example : 
+<img src="https://user-images.githubusercontent.com/18713143/149748753-66288ed5-a2fb-4ee4-8120-6204082124e1.png">
+
+Merge fast forward example:
+<img src="https://user-images.githubusercontent.com/18713143/149748770-39db5cd9-b402-48d0-b11a-b34bb6208d25.png">
+
+Merge without fast forward example:
+<img src="https://user-images.githubusercontent.com/18713143/149749898-c4308928-6668-4fc3-a839-01f08d9eba02.png">
+
+### Git Rerere (Reuse Recorded Resolution)
+Is tool for conflicted merges. this tool is a really, really helpful tool. In a workflow employing relatively long lived topic branches, the developer sometimes needs to resolve the same conflicts over and over again until the topic branches are done (either merged to the "release" branch, or sent out and accepted upstream).
+
+This command assists the developer in this process by recording conflicted automerge results and corresponding hand resolve results on the initial manual merge, and applying previously recorded hand resolutions to their corresponding automerge results.
+
+reference : [https://git-scm.com/docs/git-rerere].
