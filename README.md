@@ -28,3 +28,7 @@ Commits are information about any changes to any state stored by git from the in
 the information in the commit data cannot be edited. but we can rollback to a previous commit.
 
 <img src="https://user-images.githubusercontent.com/18713143/149713104-d087d84d-c8fd-4174-884c-c910d4d1c505.png">
+
+## Gits Areas and Stashing
+Git have 3 Areas. The <b>Working Area</b> is where files that are not handled by git. These files are also referred to as "untracked files." <b>Staging Area</b> is files that are going to be a part of the next commit, which lets git know what changes in the file are going to occur for the next commit. The <b>repository</b> contains all of a project's commits.
+
