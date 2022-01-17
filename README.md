@@ -80,9 +80,11 @@ Before merge example :
 
 <img src="https://user-images.githubusercontent.com/18713143/149748753-66288ed5-a2fb-4ee4-8120-6204082124e1.png">
 
+
 Merge fast forward example:
 
-<img src="https://user-images.githubusercontent.com/18713143/149748770-39db5cd9-b402-48d0-b11a-b34bb6208d25.png">
+<img src="https://user-images.githubusercontent.com/18713143/149759839-3c604e31-884b-4f44-a4d8-f25909de09b0.png">
+
 
 Merge without fast forward example:
 
