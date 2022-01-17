@@ -13,5 +13,6 @@ Command for view the tree of .git directory
 tree .git
 ```
 
-Example Result
+Example Result:
+
 <img width="500" alt="Screen Shot 2022-01-17 at 11 57 37" src="https://user-images.githubusercontent.com/18713143/149710372-36648673-10d5-4ea6-8db0-86dd43e1c031.png">
