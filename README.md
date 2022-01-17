@@ -68,7 +68,7 @@ Every once in while, you checkout in some branch you merge in your another branc
 
 Fast Forward happens when there are no commits on the base branch that occured after the feature branch was created. There's a clear path from the tip of the current branch to the tip of the branch.
 
-jika anda tidak menginginkan metode default ini. seperti pada kasus anda ingin tetap merekam history merge, anda dapat melakukannya dengan menambah opsi `--no-ff` (No Fast Forward)
+if you don't want this default method. as in the case you want to keep recording the merge history, you can do this by adding the `--no-ff` option (No Fast Forward)
 
 Use
 
