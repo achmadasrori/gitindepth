@@ -70,7 +70,7 @@ Fast Forward happens when there are no commits on the base branch that occured a
 
 if you don't want this default method. as in the case you want to keep recording the merge history, you can do this by adding the `--no-ff` option (No Fast Forward)
 
-Use
+How to use
 
 ```sh
 git merge --no-ff
