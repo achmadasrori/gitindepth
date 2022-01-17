@@ -30,8 +30,15 @@ the information in the commit data cannot be edited. but we can rollback to a pr
 <img src="https://user-images.githubusercontent.com/18713143/149713104-d087d84d-c8fd-4174-884c-c910d4d1c505.png">
 
 ## Gits Areas and Stashing
+### Areas
 Git have 3 Areas. 
 1. <b>Working Area</b> is where files that are not handled by git. These files are also referred to as "untracked files." 
 2. <b>Staging Area</b> is files that are going to be a part of the next commit, which lets git know what changes in the file are going to occur for the next commit. The 
-3. <b>repository</b> contains all of a project's commits.
+3. <b>Repository</b> contains all of a project's commits.
+
+<br/>
+<img src="https://user-images.githubusercontent.com/18713143/149714437-b5343c52-47d2-4f4a-8efd-b9379142107f.png">
+
+### Stashing
+Git can save uncommitted work to a git repo and is also safe from destructive operations. This is useful if you want to switch branches without committing first.
 
