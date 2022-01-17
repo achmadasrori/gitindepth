@@ -41,4 +41,22 @@ Git have 3 Areas.
 
 ### Stashing
 Git can save uncommitted work to a git repo and is also safe from destructive operations. This is useful if you want to switch branches without committing first.
+## References, Commits, Branches
+Three types df git references:
+1. <b>Tags & Annotated Tags</b> 
+    - __Tag__ are just a simple pointer to a commit. When you create a tag with no arguments, it captures the value in HEAD
+    - __Annotated Tags__ Point to a commit, but store additional information containing author, message, and date.
+2. <b>Branches</b> 
+    A branch is just a pointer to a particular commit. The pointer of the current branch changes as new commits are made.
+3. <b>Head</b> 
+    is how git knows what branch you’re currently on, and what the next parent will be. this is a place of information where we are currently actively working on a particular branch, tag, or commit
 
+Separate what a tag is and what a branch is:
+__Branch__
+    The current branch pointer it moves with every new commit to the repository. use branches when your branch will change,  when new commits will added
+__Tags__
+    Tags are a pointer to a commit. it'a a snapshot. tags aren't meant to change. you tag version one of your release, then version two. you don't move a tag to another commit.
+### Head-less / Detached Head
+Git supports us to be able to checkout to a specific commit or tag instead of a branch.
+### Dangling Commit
+A commit that is unrelated to all existing references in our git project. git will put it as garbage collected. here we can find the reference and recover it.
