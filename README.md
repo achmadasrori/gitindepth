@@ -174,4 +174,9 @@ Scenario Graph Rebase VS Merge
 
 ![image](https://user-images.githubusercontent.com/18713143/149884632-46a32477-29cf-4f11-96f5-50583f33fd61.png)
 
+Use this command for abort rebase 
+```sh
+git rebase --abort
+```
+
 See [https://git-scm.com/docs/git-rebase] or git rebase --help for more complex uses.
