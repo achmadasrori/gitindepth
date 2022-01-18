@@ -137,3 +137,25 @@ Git checkout is command for switch branches or restore working tree files. Check
 See [https://git-scm.com/docs/git-checkout]  or `git checkout --help` for more complex uses.
 ### Git Clean
 Git clean will clears working area by deleting untracked files and this operation can't be undone.
+
+```sh
+git clean [-d] [-f] [-i] [-n] [-q] [-e <pattern>] [-x | -X] [--] <path>…​
+```
+
+See [https://git-scm.com/docs/git-clean]  or `git clean --help` for more complex uses.
+
+### Git Reset 
+Git reset is comman for reset current HEAD to the specified state. this overwrites files and can't be undone
+
+```sh
+git reset [--soft | --mixed [-N] | --hard | --merge | --keep] [-q] [<commit>]
+```
+
+See [https://git-scm.com/docs/git-reset]  or `git reset --help` for more complex uses.
+
+### Git revert
+Git revert is a safe reset it will revert some existing commits. Git revert creates a new commit that introduces the opposite changes from the specified commit. The original commit stays in the repository.
+
+![image](https://user-images.githubusercontent.com/18713143/149864715-284274a8-b7f6-4b6c-9dde-3bc76ad73fe1.png)
+
+See [https://git-scm.com/docs/git-revert]  or `git revert --help` for more complex uses.
