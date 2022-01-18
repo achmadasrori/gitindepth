@@ -18,7 +18,7 @@ Example Result:
 <img src="https://user-images.githubusercontent.com/18713143/149710372-36648673-10d5-4ea6-8db0-86dd43e1c031.png">
 
 ## Git Commits
-Commits are information about any changes to any state stored by git from the initial state to the last state. Commit objects are stored in the form of a tree. commit data contains the following information:
+Commits are snapshots of the repo at a given point in time containing information about any changes to any state saved by git from initial state to last state. Commit objects are blob data and are stored in the form of a tree. the commit data contains the following information:
 1. Commit ID (SHA1)
 2. author and commiter
 3. date
@@ -129,4 +129,5 @@ Git diff show changes between the working tree and the index or a tree, changes 
 ![image](https://user-images.githubusercontent.com/18713143/149784428-a4e47bc5-bc11-48f3-961b-18c84f048364.png)
 
 See [https://git-scm.com/docs/git-diff] or `git show --help` for more complex uses.
+
 
