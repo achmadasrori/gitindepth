@@ -130,4 +130,10 @@ Git diff show changes between the working tree and the index or a tree, changes 
 
 See [https://git-scm.com/docs/git-diff] or `git show --help` for more complex uses.
 
+## Fixing Mistakes
+### Git Checkout
+Git checkout is command for switch branches or restore working tree files. Checkout can move that head pointer and update the staging area and the working directory. this will replaces the working area copy with the branch, tag or specifi commit version from your current staging area.
 
+See [https://git-scm.com/docs/git-checkout]  or `git checkout --help` for more complex uses.
+### Git Clean
+Git clean will clears working area by deleting untracked files and this operation can't be undone.
