@@ -159,3 +159,11 @@ Git revert is a safe reset it will revert some existing commits. Git revert crea
 ![image](https://user-images.githubusercontent.com/18713143/149864715-284274a8-b7f6-4b6c-9dde-3bc76ad73fe1.png)
 
 See [https://git-scm.com/docs/git-revert]  or `git revert --help` for more complex uses.
+
+## Rebase and Amend
+### Git Amend
+Amend is a quick and easy shortcut that lets you make changes to the previous commit. this will create a new commit and put the old commits in the garbage collected.
+
+![image](https://user-images.githubusercontent.com/18713143/149870713-6df268a5-d1c4-4dbb-bce6-5ab735257bc2.png)
+
+See [https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History] for more complex uses.
