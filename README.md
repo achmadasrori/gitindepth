@@ -162,8 +162,16 @@ See [https://git-scm.com/docs/git-revert]  or `git revert --help` for more compl
 
 ## Rebase and Amend
 ### Git Amend
-Amend is a quick and easy shortcut that lets you make changes to the previous commit. this will create a new commit and put the old commits in the garbage collected.
+Git commit Amend is a quick and easy shortcut that lets you make changes to the previous commit. this will create a new commit and put the old commits in the garbage collected.
 
 ![image](https://user-images.githubusercontent.com/18713143/149870713-6df268a5-d1c4-4dbb-bce6-5ab735257bc2.png)
 
 See [https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History] for more complex uses.
+### Git Rebase
+Git Rebase means is give a commit a new parrent. Rebase commit can be edited, removed, combined, re-ordered, inserted before they "replayed" on top of new HEAD
+
+Scenario Graph Rebase VS Merge
+
+![image](https://user-images.githubusercontent.com/18713143/149884632-46a32477-29cf-4f11-96f5-50583f33fd61.png)
+
+See [https://git-scm.com/docs/git-rebase] or git rebase --help for more complex uses.
